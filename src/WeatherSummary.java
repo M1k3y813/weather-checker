@@ -18,16 +18,17 @@ public class WeatherSummary {
      * @param args command line arguments (ignored)
      */
     public static void main(String[] args) {
-       Scanner input = new Scanner(System.in);
-
+       Scanner input = new Scanner(System.in);    // Implement this method!
+                                                   // Hint: use Scanner. nextDouble() and hasNextDouble() will be helpful here!
        double max = Double.NEGATIVE_INFINITY;
        double min = Double.POSITIVE_INFINITY;
        double sum = 0;
        int count = 0;
     
-           // Implement this method!
-        // Hint: use Scanner. nextDouble() and hasNextDouble() will be helpful here!
+       while (input.hasNextDouble()) {
+        double currentTemp = input.nextDouble();
 
+       }
 
     }
 }
