@@ -40,7 +40,7 @@ public class WeatherSummary {
        }
 
        if (count > 0) {
-        double average = sum / count;
+         double average = sum / count;
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
         System.out.println("Average: " + average);
