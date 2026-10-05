@@ -28,6 +28,15 @@ public class WeatherSummary {
        while (input.hasNextDouble()) {
         double currentTemp = input.nextDouble();
 
+        if (currentTemp > max) {
+            max = currentTemp;
+        }
+        if (currentTemp < min) {
+            min = currentTemp;
+        }
+            sum += currentTemp;
+            count++;
+
        }
 
     }
